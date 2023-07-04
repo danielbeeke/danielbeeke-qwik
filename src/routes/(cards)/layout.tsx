@@ -3,7 +3,7 @@ import { useDocumentHead } from '@builder.io/qwik-city';
 import '../../scss/home-card.scss'
 
 export default component$(() => {
-  const { frontmatter: { header, image } } = useDocumentHead();
+  const { title, frontmatter: { header, image } } = useDocumentHead();
   
   return (
     <div class="home-card lightnet">
@@ -16,6 +16,7 @@ export default component$(() => {
       </header>
 
       <main>
+        <h1>{title}</h1>
         <Slot />
       </main>
     </div>

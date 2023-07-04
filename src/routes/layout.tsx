@@ -3,7 +3,7 @@ import { Navigation } from '~/components/navigation/Navigation';
 
 export default component$(() => {
   return (
-    <div window:onScroll$={(event) => {
+    <div window:onScroll$={() => {
       window.scrollY ? document.body.classList.add("scrolled") : document.body.classList.remove("scrolled")
     }}>
     <Slot />
