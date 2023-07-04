@@ -1,5 +1,5 @@
 {
-  "manifestHash": "oj6e4k",
+  "manifestHash": "4n8k1r",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -220,29 +220,29 @@
     }
   },
   "mapping": {
-    "s_02wMImzEAbk": "q-09e81331.js",
-    "s_004bEyAdVAc": "q-2910da1e.js",
-    "s_0vphQYqOdZI": "q-e608e6c0.js",
-    "s_2HTIXdf7AaU": "q-0cf015ae.js",
-    "s_8gdLBszqbaM": "q-925249fe.js",
-    "s_Nk9PlpjQm9Y": "q-64c68ac3.js",
-    "s_TxCFOy819ag": "q-09e81331.js",
-    "s_VKFlAWJuVm8": "q-2910da1e.js",
-    "s_WmYC5H00wtI": "q-2694135a.js",
-    "s_e0ssiDXoeAM": "q-3944e7f1.js",
-    "s_tntnak2DhJ8": "q-b5870561.js",
-    "s_RPDJAz33WLA": "q-09e81331.js",
+    "s_02wMImzEAbk": "q-f4849eb3.js",
+    "s_004bEyAdVAc": "q-add2fe40.js",
+    "s_0vphQYqOdZI": "q-7e1a9def.js",
+    "s_2HTIXdf7AaU": "q-875c4676.js",
+    "s_8gdLBszqbaM": "q-b9357beb.js",
+    "s_Nk9PlpjQm9Y": "q-c240f28e.js",
+    "s_TxCFOy819ag": "q-f4849eb3.js",
+    "s_VKFlAWJuVm8": "q-add2fe40.js",
+    "s_WmYC5H00wtI": "q-85d8781b.js",
+    "s_e0ssiDXoeAM": "q-310d3c83.js",
+    "s_tntnak2DhJ8": "q-3e850d8f.js",
+    "s_RPDJAz33WLA": "q-f4849eb3.js",
     "s_A5bZC7WO00A": "q-a49726c8.js",
     "s_DyVc0YBIqQU": "q-61e731e2.js",
-    "s_wOIPfiQ04l4": "q-78bbdfcb.js",
-    "s_BUbtvTyvVRE": "q-2694135a.js",
+    "s_wOIPfiQ04l4": "q-a0f1b670.js",
+    "s_BUbtvTyvVRE": "q-85d8781b.js",
     "s_Lt7Iy2g0aFU": "q-922d704a.js",
     "s_OJeV4ZzOOy4": "q-61d5723e.js",
-    "s_eBQ0vFsFKsk": "q-ca33edc4.js",
-    "s_fX0bDjeJa0E": "q-09e81331.js",
-    "s_i1Cv0pYJNR0": "q-925249fe.js",
-    "s_p9MSze0ojs4": "q-64c68ac3.js",
-    "s_puBesKOW5Q4": "q-0cf015ae.js"
+    "s_eBQ0vFsFKsk": "q-bcd21947.js",
+    "s_fX0bDjeJa0E": "q-f4849eb3.js",
+    "s_i1Cv0pYJNR0": "q-b9357beb.js",
+    "s_p9MSze0ojs4": "q-c240f28e.js",
+    "s_puBesKOW5Q4": "q-875c4676.js"
   },
   "bundles": {
     "q-06754ced.js": {
@@ -251,98 +251,11 @@
         "src/routes/menu.md"
       ]
     },
-    "q-09e81331.js": {
-      "size": 5868,
-      "imports": [
-        "q-92f7b959.js",
-        "q-a8a9dcb9.js"
-      ],
-      "dynamicImports": [
-        "q-06754ced.js",
-        "q-52e415a7.js",
-        "q-58b0efa6.js",
-        "q-5a9ba231.js",
-        "q-96166445.js",
-        "q-d0343eb2.js",
-        "q-fb9aaafc.js"
-      ],
-      "origins": [
-        "@qwik-city-plan",
-        "src/entry_QwikCityProvider.js",
-        "src/s_02wmimzeabk.js",
-        "src/s_fx0bdjeja0e.js",
-        "src/s_rpdjaz33wla.js",
-        "src/s_txcfoy819ag.js"
-      ],
-      "symbols": [
-        "s_02wMImzEAbk",
-        "s_fX0bDjeJa0E",
-        "s_RPDJAz33WLA",
-        "s_TxCFOy819ag"
-      ]
-    },
-    "q-0cf015ae.js": {
-      "size": 2219,
-      "imports": [
-        "q-92f7b959.js",
-        "q-a8a9dcb9.js"
-      ],
-      "dynamicImports": [
-        "q-922d704a.js"
-      ],
-      "origins": [
-        "src/entry_Navigation.js",
-        "src/s_2htixdf7aau.js",
-        "src/s_pubeskow5q4.js"
-      ],
-      "symbols": [
-        "s_2HTIXdf7AaU",
-        "s_puBesKOW5Q4"
-      ]
-    },
-    "q-2694135a.js": {
-      "size": 782,
-      "imports": [
-        "q-92f7b959.js",
-        "q-a8a9dcb9.js"
-      ],
-      "origins": [
-        "src/entry_QwikCityMockProvider.js",
-        "src/s_bubtvtyvvre.js",
-        "src/s_wmyc5h00wti.js"
-      ],
-      "symbols": [
-        "s_BUbtvTyvVRE",
-        "s_WmYC5H00wtI"
-      ]
-    },
-    "q-2910da1e.js": {
-      "size": 823,
-      "imports": [
-        "q-92f7b959.js",
-        "q-a8a9dcb9.js"
-      ],
-      "dynamicImports": [
-        "q-0cf015ae.js",
-        "q-61d5723e.js"
-      ],
-      "origins": [
-        "src/components/navigation/Navigation.tsx",
-        "src/components/navigation/navigation.scss",
-        "src/entry_layout.js",
-        "src/s_004beyadvac.js",
-        "src/s_vkflawjuvm8.js"
-      ],
-      "symbols": [
-        "s_004bEyAdVAc",
-        "s_VKFlAWJuVm8"
-      ]
-    },
-    "q-3944e7f1.js": {
+    "q-310d3c83.js": {
       "size": 467,
       "imports": [
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-f489242d.js"
       ],
       "origins": [
         "src/entry_RouterOutlet.js",
@@ -352,25 +265,35 @@
         "s_e0ssiDXoeAM"
       ]
     },
-    "q-52e415a7.js": {
-      "size": 207,
+    "q-31badd0e.js": {
+      "size": 290,
       "imports": [
         "q-92f7b959.js"
       ],
       "dynamicImports": [
-        "q-2910da1e.js"
+        "q-3e850d8f.js"
       ],
       "origins": [
-        "src/routes/layout.tsx"
+        "src/global.scss",
+        "src/root.tsx"
       ]
     },
-    "q-58b0efa6.js": {
-      "size": 617,
+    "q-3e850d8f.js": {
+      "size": 501,
       "imports": [
-        "q-92f7b959.js"
+        "q-71832e84.js",
+        "q-92f7b959.js",
+        "q-9a680711.js",
+        "q-cc79b1b2.js",
+        "q-ebba3e19.js",
+        "q-f489242d.js"
       ],
       "origins": [
-        "src/routes/(cards)/open-source/index.mdx"
+        "src/entry_root.js",
+        "src/s_tntnak2dhj8.js"
+      ],
+      "symbols": [
+        "s_tntnak2DhJ8"
       ]
     },
     "q-5a9ba231.js": {
@@ -404,34 +327,72 @@
         "s_DyVc0YBIqQU"
       ]
     },
-    "q-64c68ac3.js": {
-      "size": 980,
+    "q-71832e84.js": {
+      "size": 612,
       "imports": [
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-9a680711.js",
+        "q-cc79b1b2.js",
+        "q-ebba3e19.js"
+      ],
+      "dynamicImports": [
+        "q-7e1a9def.js"
       ],
       "origins": [
-        "src/entry_GetForm.js",
-        "src/s_nk9plpjqm9y.js",
-        "src/s_p9msze0ojs4.js"
-      ],
-      "symbols": [
-        "s_Nk9PlpjQm9Y",
-        "s_p9MSze0ojs4"
+        "src/components/router-head/router-head.tsx"
       ]
     },
-    "q-78bbdfcb.js": {
-      "size": 889,
+    "q-7e1a9def.js": {
+      "size": 1149,
       "imports": [
+        "q-71832e84.js",
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-9a680711.js",
+        "q-cc79b1b2.js",
+        "q-ebba3e19.js",
+        "q-f489242d.js"
       ],
       "origins": [
-        "src/entry_serverQrl.js",
-        "src/s_woipfiq04l4.js"
+        "src/entry_RouterHead.js",
+        "src/s_0vphqyqodzi.js"
       ],
       "symbols": [
-        "s_wOIPfiQ04l4"
+        "s_0vphQYqOdZI"
+      ]
+    },
+    "q-85d8781b.js": {
+      "size": 782,
+      "imports": [
+        "q-92f7b959.js",
+        "q-f489242d.js"
+      ],
+      "origins": [
+        "src/entry_QwikCityMockProvider.js",
+        "src/s_bubtvtyvvre.js",
+        "src/s_wmyc5h00wti.js"
+      ],
+      "symbols": [
+        "s_BUbtvTyvVRE",
+        "s_WmYC5H00wtI"
+      ]
+    },
+    "q-875c4676.js": {
+      "size": 2219,
+      "imports": [
+        "q-92f7b959.js",
+        "q-f489242d.js"
+      ],
+      "dynamicImports": [
+        "q-922d704a.js"
+      ],
+      "origins": [
+        "src/entry_Navigation.js",
+        "src/s_2htixdf7aau.js",
+        "src/s_pubeskow5q4.js"
+      ],
+      "symbols": [
+        "s_2HTIXdf7AaU",
+        "s_puBesKOW5Q4"
       ]
     },
     "q-8ea06850.js": {
@@ -450,42 +411,33 @@
         "s_Lt7Iy2g0aFU"
       ]
     },
-    "q-925249fe.js": {
-      "size": 1135,
-      "imports": [
-        "q-92f7b959.js",
-        "q-a8a9dcb9.js"
-      ],
-      "dynamicImports": [
-        "q-ca33edc4.js"
-      ],
-      "origins": [
-        "src/entry_Link.js",
-        "src/s_8gdlbszqbam.js",
-        "src/s_i1cv0pyjnr0.js"
-      ],
-      "symbols": [
-        "s_8gdLBszqbaM",
-        "s_i1Cv0pYJNR0"
-      ]
-    },
     "q-92f7b959.js": {
       "size": 46143,
       "origins": [
         "node_modules/@builder.io/qwik/core.min.mjs"
       ]
     },
-    "q-96166445.js": {
-      "size": 202,
+    "q-9a680711.js": {
+      "size": 708,
       "imports": [
         "q-92f7b959.js"
       ],
-      "dynamicImports": [
-        "q-2910da1e.js"
+      "origins": [
+        "src/routes/(cards)/open-source/index.mdx"
+      ]
+    },
+    "q-a0f1b670.js": {
+      "size": 889,
+      "imports": [
+        "q-92f7b959.js",
+        "q-f489242d.js"
       ],
       "origins": [
-        "src/routes/(cards)/layout.tsx",
-        "src/scss/home-card.scss"
+        "src/entry_serverQrl.js",
+        "src/s_woipfiq04l4.js"
+      ],
+      "symbols": [
+        "s_wOIPfiQ04l4"
       ]
     },
     "q-a49726c8.js": {
@@ -501,44 +453,64 @@
         "s_A5bZC7WO00A"
       ]
     },
-    "q-a8a9dcb9.js": {
-      "size": 5800,
+    "q-add2fe40.js": {
+      "size": 823,
+      "imports": [
+        "q-92f7b959.js",
+        "q-f489242d.js"
+      ],
+      "dynamicImports": [
+        "q-61d5723e.js",
+        "q-875c4676.js"
+      ],
+      "origins": [
+        "src/components/navigation/Navigation.tsx",
+        "src/components/navigation/navigation.scss",
+        "src/entry_layout.js",
+        "src/s_004beyadvac.js",
+        "src/s_vkflawjuvm8.js"
+      ],
+      "symbols": [
+        "s_004bEyAdVAc",
+        "s_VKFlAWJuVm8"
+      ]
+    },
+    "q-b255f05b.js": {
+      "size": 207,
       "imports": [
         "q-92f7b959.js"
       ],
       "dynamicImports": [
-        "q-09e81331.js",
-        "q-3944e7f1.js",
-        "q-61e731e2.js"
+        "q-add2fe40.js"
       ],
       "origins": [
-        "@qwik-city-sw-register",
-        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
+        "src/routes/layout.tsx"
       ]
     },
-    "q-b5870561.js": {
-      "size": 543,
+    "q-b9357beb.js": {
+      "size": 1135,
       "imports": [
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-f489242d.js"
       ],
       "dynamicImports": [
-        "q-e608e6c0.js"
+        "q-bcd21947.js"
       ],
       "origins": [
-        "src/components/router-head/router-head.tsx",
-        "src/entry_root.js",
-        "src/s_tntnak2dhj8.js"
+        "src/entry_Link.js",
+        "src/s_8gdlbszqbam.js",
+        "src/s_i1cv0pyjnr0.js"
       ],
       "symbols": [
-        "s_tntnak2DhJ8"
+        "s_8gdLBszqbaM",
+        "s_i1Cv0pYJNR0"
       ]
     },
-    "q-ca33edc4.js": {
+    "q-bcd21947.js": {
       "size": 128,
       "imports": [
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-f489242d.js"
       ],
       "origins": [
         "src/s_ebq0vfsfksk.js"
@@ -547,31 +519,24 @@
         "s_eBQ0vFsFKsk"
       ]
     },
-    "q-d0343eb2.js": {
-      "size": 1554,
-      "imports": [
-        "q-92f7b959.js"
-      ],
-      "origins": [
-        "src/routes/(cards)/lightnet/index.mdx"
-      ]
-    },
-    "q-e608e6c0.js": {
-      "size": 981,
+    "q-c240f28e.js": {
+      "size": 980,
       "imports": [
         "q-92f7b959.js",
-        "q-a8a9dcb9.js"
+        "q-f489242d.js"
       ],
       "origins": [
-        "src/entry_RouterHead.js",
-        "src/s_0vphqyqodzi.js"
+        "src/entry_GetForm.js",
+        "src/s_nk9plpjqm9y.js",
+        "src/s_p9msze0ojs4.js"
       ],
       "symbols": [
-        "s_0vphQYqOdZI"
+        "s_Nk9PlpjQm9Y",
+        "s_p9MSze0ojs4"
       ]
     },
-    "q-fb9aaafc.js": {
-      "size": 923,
+    "q-cc79b1b2.js": {
+      "size": 1014,
       "imports": [
         "q-92f7b959.js"
       ],
@@ -579,17 +544,71 @@
         "src/routes/(cards)/index.mdx"
       ]
     },
-    "q-ff2fe009.js": {
+    "q-d3aaabad.js": {
       "size": 202,
       "imports": [
         "q-92f7b959.js"
       ],
       "dynamicImports": [
-        "q-b5870561.js"
+        "q-add2fe40.js"
       ],
       "origins": [
-        "src/global.scss",
-        "src/root.tsx"
+        "src/routes/(cards)/layout.tsx",
+        "src/scss/home-card.scss"
+      ]
+    },
+    "q-ebba3e19.js": {
+      "size": 1645,
+      "imports": [
+        "q-92f7b959.js"
+      ],
+      "origins": [
+        "src/routes/(cards)/lightnet/index.mdx"
+      ]
+    },
+    "q-f4849eb3.js": {
+      "size": 5912,
+      "imports": [
+        "q-92f7b959.js",
+        "q-f489242d.js"
+      ],
+      "dynamicImports": [
+        "q-06754ced.js",
+        "q-5a9ba231.js",
+        "q-9a680711.js",
+        "q-b255f05b.js",
+        "q-cc79b1b2.js",
+        "q-d3aaabad.js",
+        "q-ebba3e19.js"
+      ],
+      "origins": [
+        "@qwik-city-plan",
+        "src/entry_QwikCityProvider.js",
+        "src/s_02wmimzeabk.js",
+        "src/s_fx0bdjeja0e.js",
+        "src/s_rpdjaz33wla.js",
+        "src/s_txcfoy819ag.js"
+      ],
+      "symbols": [
+        "s_02wMImzEAbk",
+        "s_fX0bDjeJa0E",
+        "s_RPDJAz33WLA",
+        "s_TxCFOy819ag"
+      ]
+    },
+    "q-f489242d.js": {
+      "size": 5800,
+      "imports": [
+        "q-92f7b959.js"
+      ],
+      "dynamicImports": [
+        "q-310d3c83.js",
+        "q-61e731e2.js",
+        "q-f4849eb3.js"
+      ],
+      "origins": [
+        "@qwik-city-sw-register",
+        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
       ]
     }
   },
@@ -598,8 +617,8 @@
       "tag": "style",
       "location": "head",
       "attributes": {
-        "data-src": "/build/q-70fb1749.css",
-        "dangerouslySetInnerHTML": ".navigation{position:fixed;left:50%;bottom:0px;transform:translate(-50%);display:flex;align-items:center;gap:15px;z-index:9;transition:all .4s ease-in-out;padding-bottom:20px}.navigation .current-page{padding:10px;font-size:24px;border-radius:100px;margin:0;cursor:pointer;transition:all .4s .2s ease-in-out;background-color:var(--gray);font-family:Caprasimo,cursive;font-weight:400;white-space:nowrap;width:180px;text-align:center}.navigation .nav-button{min-width:30px;height:55px;padding:20px;border:none;cursor:pointer;border-radius:50px;background-color:var(--primary);display:flex;align-items:center;justify-content:center;text-decoration:none}.navigation .nav-button span{white-space:nowrap;display:block;font-size:22px;color:#fff;max-width:0px;opacity:0;transition:max-width .4s ease-in-out,opacity .4s ease-in-out;overflow:hidden}.navigation .nav-button svg{width:16px}.navigation .nav-button svg path{fill:#fff}.navigation .left{right:calc(100% + 40px)}.navigation .right{left:calc(100% + 40px)}@media (min-width: 1200px){.navigation{gap:40px;padding-bottom:40px}.navigation .current-page{padding:30px;font-size:40px;height:107px;width:350px}.navigation .nav-button{min-width:80px;height:90px;padding:20px;border-radius:50px;position:absolute}.navigation .nav-button span{font-size:22px}.navigation .nav-button svg{width:50px}.navigation .left{right:calc(100% + 40px)}.navigation .right{left:calc(100% + 40px)}body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) .navigation .nav-button:hover span{max-width:300px;opacity:1}}.scrolled .navigation{opacity:0;transform:translate(-50%) translateY(150px)}.went-left .navigation .current-page,.went-right .navigation .current-page{opacity:0;transform:translateY(160px)}html{-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Open Sans,sans-serif;overflow-x:hidden}html{min-height:100vh}body{padding:0;margin:0;line-height:inherit;min-height:100vh}*{box-sizing:border-box;color:var(--primary)}main{background-color:#fff;max-width:900px;margin-inline:auto;padding-inline:40px;padding-top:40px;position:relative;z-index:10}main p{font-size:18px;line-height:1.6}main h1{padding-top:40px;font-size:32px}.scrolled main{background:transparent}:root{--primary: rgb(18, 58, 34);--gray: rgb(224, 224, 224);--easing: cubic-bezier(.55,.02,.54,1.04)}h1{margin:0;font-family:Caprasimo,cursive;font-weight:400;line-height:1.2}@media (min-width: 1200px){main{padding-top:200px}main p{font-size:26px}main h1{font-size:52px}}.home-card{padding-bottom:40px;transition:all .4s var(--easing);transform-origin:50% 200%}.home-card header{display:grid;grid-template-columns:100%;grid-template-rows:50vh 50vh;grid-template-areas:\"left\" \"right\";height:100vh;overflow:hidden;transition:opacity .4s var(--easing)}.home-card header:after{content:\"\";display:block;width:60px;border-radius:30px;background:linear-gradient(rgba(18,58,34,0),rgba(18,58,34,.3),rgb(18,58,34));height:200px;position:absolute;z-index:11;opacity:0;left:calc(50% - 30px)}.home-card .left{grid-area:left;font-size:3vh;padding:40px;align-self:center;line-height:1.6;text-align:right;transition:all .4s var(--easing)}.home-card .left h1{margin-block:20px}.home-card .right-wrapper{overflow:hidden}.home-card .right{grid-area:right;object-fit:cover;object-position:center;width:100%;height:100%;transition:all .4s var(--easing)}body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) .home-card header:after{animation:nudge 4s 3s ease-in-out infinite both}@media (min-width: 1200px){.home-card{padding-bottom:20vh}.home-card header{grid-template-columns:50% 50%;grid-template-rows:1fr;grid-template-areas:\"left right\"}.home-card header:after{left:calc(50% - 30px)}.home-card .left{padding:100px}}.scrolled .home-card header{opacity:.1}.scrolled .home-card header:after{display:none}.went-left .home-card{animation:leftOut .5s var(--easing) both}.went-right .home-card{animation:rightOut .5s var(--easing) both}.came-left .home-card{animation:leftIn .5s var(--easing) both}.came-right .home-card{animation:rightIn .5s var(--easing) both}.went-left,.went-right,.came-left,.came-right{height:100vh;overflow:hidden}@keyframes leftOut{0%{display:block;transform:translateY(0) rotate(0);opacity:1}99%{transform:translateY(-100px) rotate(-90deg);opacity:0}to{display:none}}@keyframes rightOut{0%{display:block;transform:translateY(0) rotate(0);opacity:1}99%{transform:translateY(-100px) rotate(90deg);opacity:0}to{display:none}}@keyframes leftIn{0%{display:block;transform:translateY(-100px) rotate(90deg);opacity:0}to{transform:translateY(0) rotate(0);opacity:1}}@keyframes rightIn{0%{display:block;transform:translateY(-100px) rotate(-90deg);opacity:0}to{transform:rotate(0);opacity:1}}@keyframes nudge{0%{transform:translateY(50vh);opacity:0}30%{opacity:1}40%{transform:translateY(100vh)}to{transform:translateY(100vh)}}\n"
+        "data-src": "/build/q-6c641ac1.css",
+        "dangerouslySetInnerHTML": ".navigation{position:fixed;left:50%;bottom:0px;transform:translate(-50%);display:flex;align-items:center;gap:15px;z-index:9;transition:all .4s ease-in-out;padding-bottom:20px}.navigation .current-page{padding:10px;font-size:24px;border-radius:100px;margin:0;cursor:pointer;transition:all .4s .2s ease-in-out;background-color:var(--gray);font-family:Caprasimo,cursive;font-weight:400;white-space:nowrap;width:180px;user-select:none;text-align:center}.navigation .nav-button{min-width:30px;height:55px;padding:20px;border:none;cursor:pointer;border-radius:50px;background-color:var(--primary);display:flex;align-items:center;justify-content:center;text-decoration:none}.navigation .nav-button span{white-space:nowrap;display:block;font-size:22px;color:#fff;max-width:0px;opacity:0;transition:max-width .4s ease-in-out,opacity .4s ease-in-out;overflow:hidden}.navigation .nav-button svg{width:16px}.navigation .nav-button svg path{fill:#fff}.navigation .left{right:calc(100% + 40px)}.navigation .right{left:calc(100% + 40px)}@media (min-width: 1200px){.navigation{gap:40px;padding-bottom:40px}.navigation .current-page{padding:30px;font-size:40px;height:107px;width:350px}.navigation .nav-button{min-width:80px;height:90px;padding:20px;border-radius:50px;position:absolute}.navigation .nav-button span{font-size:22px}.navigation .nav-button svg{width:50px}.navigation .left{right:calc(100% + 40px)}.navigation .right{left:calc(100% + 40px)}body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) .navigation .nav-button:hover span{max-width:300px;opacity:1}}.scrolled .navigation{opacity:0;transform:translate(-50%) translateY(150px)}.went-left .navigation .current-page,.went-right .navigation .current-page{opacity:0;transform:translateY(160px)}html{-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Open Sans,sans-serif;overflow-x:hidden}html{min-height:100vh}body{padding:0;margin:0;line-height:inherit;min-height:100vh}*{box-sizing:border-box;color:var(--primary)}main{background-color:#fff;max-width:900px;margin-inline:auto;padding-inline:40px;padding-top:40px;position:relative;z-index:10}main p{font-size:18px;line-height:1.6}main h1{padding-top:40px;font-size:32px}.scrolled main{background:transparent}:root{--primary: rgb(18, 58, 34);--gray: rgb(224, 224, 224);--easing: cubic-bezier(.55,.02,.54,1.04)}h1{margin:0;font-family:Caprasimo,cursive;font-weight:400;line-height:1.2}@media (min-width: 1200px){main{padding-top:200px}main p{font-size:26px}main h1{font-size:52px}}.home-card{padding-bottom:40px;transition:all .4s var(--easing);transform-origin:50% 200%}.home-card header{display:grid;grid-template-columns:100%;grid-template-rows:50vh 50vh;grid-template-areas:\"left\" \"right\";height:100vh;overflow:hidden;transition:opacity .4s var(--easing)}.home-card header:after{content:\"\";display:block;width:60px;border-radius:30px;background:linear-gradient(rgba(18,58,34,0),rgba(18,58,34,.3),rgb(18,58,34));height:200px;position:absolute;z-index:11;opacity:0;left:calc(50% - 30px)}.home-card .left{grid-area:left;font-size:3vh;padding:40px;align-self:center;line-height:1.6;text-align:right;transition:all .4s var(--easing)}.home-card .left h1{margin-block:20px}.home-card .right-wrapper{overflow:hidden}.home-card .right{grid-area:right;object-fit:cover;object-position:center;width:100%;height:100%;transition:all .4s var(--easing)}body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) .home-card header:after{animation:nudge 4s 3s ease-in-out infinite both}@media (min-width: 1200px){.home-card{padding-bottom:20vh}.home-card header{grid-template-columns:50% 50%;grid-template-rows:1fr;grid-template-areas:\"left right\"}.home-card header:after{left:calc(50% - 30px)}.home-card .left{padding:100px}}.scrolled .home-card header{opacity:.1}.scrolled .home-card header:after{display:none}.went-left .home-card{animation:leftOut .5s var(--easing) both}.went-right .home-card{animation:rightOut .5s var(--easing) both}.came-left .home-card{animation:leftIn .5s var(--easing) both}.came-right .home-card{animation:rightIn .5s var(--easing) both}.went-left,.went-right,.came-left,.came-right{height:100vh;overflow:hidden}@keyframes leftOut{0%{display:block;transform:translateY(0) rotate(0);opacity:1}99%{transform:translateY(-100px) rotate(-90deg);opacity:0}to{display:none}}@keyframes rightOut{0%{display:block;transform:translateY(0) rotate(0);opacity:1}99%{transform:translateY(-100px) rotate(90deg);opacity:0}to{display:none}}@keyframes leftIn{0%{display:block;transform:translateY(-100px) rotate(90deg);opacity:0}to{transform:translateY(0) rotate(0);opacity:1}}@keyframes rightIn{0%{display:block;transform:translateY(-100px) rotate(-90deg);opacity:0}to{transform:rotate(0);opacity:1}}@keyframes nudge{0%{transform:translateY(50vh);opacity:0}30%{opacity:1}40%{transform:translateY(100vh)}to{transform:translateY(100vh)}}\n"
       }
     }
   ],
