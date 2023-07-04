@@ -1,0 +1,131 @@
+.navigation {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 9;
+  transition: all .4s ease-in-out;
+  padding-bottom: 20px;
+
+  .current-page {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 100px;
+    margin: 0;
+    cursor: pointer;
+    transition: all .4s .2s ease-in-out;
+    background-color: var(--gray);
+    font-family: 'Caprasimo', cursive;
+    font-weight: normal;
+    white-space: nowrap;
+    width: 180px;
+    text-align: center;
+  }
+
+  .nav-button {
+    min-width: 30px;
+    height: 55px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    span {
+      white-space: nowrap;
+      display: block;
+      font-size: 22px;
+      color: white;
+      max-width: 0px;
+      opacity: 0;
+      transition: max-width .4s ease-in-out, opacity .4s ease-in-out;
+      overflow: hidden;
+    }
+
+    svg {
+      width: 16px;
+
+      path {
+        fill: white;
+      }
+    }
+  }
+
+  .left {
+    right: calc(100% + 40px);
+  }
+
+  .right {
+    left: calc(100% + 40px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .navigation {
+    gap: 40px;
+    padding-bottom: 40px;
+
+    .current-page {
+      padding: 30px;
+      font-size: 40px;
+      height: 107px;
+      width: 350px;
+    }
+  
+    .nav-button {
+      min-width: 80px;
+      height: 90px;
+      padding: 20px;
+      border-radius: 50px;
+      position: absolute;
+
+      span {
+        font-size: 22px;
+      }
+  
+      svg {
+        width: 50px;
+      }
+    }
+  
+    .left {
+      right: calc(100% + 40px);
+    }
+  
+    .right {
+      left: calc(100% + 40px);
+    }
+  }
+
+  body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) {
+    .navigation {
+      .nav-button {
+        &:hover span {
+          max-width: 300px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.scrolled .navigation {
+  opacity: 0;
+  transform: translateX(-50%) translateY(150px);
+}
+
+.went-left, .went-right {
+  .navigation {
+    .current-page {
+      opacity: 0;
+      transform: translateY(160px);
+    }
+  }
+}

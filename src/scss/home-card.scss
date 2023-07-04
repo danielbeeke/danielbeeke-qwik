@@ -1,0 +1,150 @@
+.home-card {
+  padding-bottom: 40px;
+  transition: all .4s var(--easing);
+  transform-origin: 50% 200%;
+
+  header {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: "left"
+    "right";
+    height: 100vh;
+    overflow: hidden;  
+    transition: opacity .4s var(--easing);
+
+    &:after {
+      content: '';
+      display: block;
+      width: 60px;
+      border-radius: 30px;
+      background: linear-gradient(rgba(18, 58, 34, 0), rgba(18, 58, 34, .3), rgba(18, 58, 34, 1));
+      height: 200px;
+      position: absolute;
+      z-index: 11;
+      opacity: 0;
+      left: calc(50% - 30px);
+    }
+  }
+
+  .left {
+    grid-area: left;
+    font-size: 3vh;
+    padding: 40px;
+    align-self: center;
+    line-height: 1.6;
+    text-align: right;
+    transition: all .4s var(--easing);
+
+    h1 {
+      margin-block: 20px;
+    }
+  }
+
+  .right-wrapper {
+    overflow: hidden;
+  }
+
+  .right {
+    grid-area: right;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    transition: all .4s var(--easing);
+  }
+}
+
+body:not(.went-left):not(.went-right):not(.came-left):not(.came-right) {
+  .home-card {
+    header:after {
+      animation: nudge 4s 3s ease-in-out infinite both;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-card {
+    padding-bottom: 20vh;
+
+    header {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 1fr;
+      grid-template-areas: "left right";  
+
+      &:after {
+        left: calc(50% - 30px);
+      }
+    }
+
+    .left {
+      padding: 100px;
+    }
+  }
+}
+
+.scrolled .home-card header {
+  opacity: .1;
+
+  &:after {
+    display: none;
+  }
+}
+
+.went-left {
+  .home-card {
+    animation: leftOut .5s var(--easing) both;
+  }
+}
+
+.went-right {
+  .home-card {
+    animation: rightOut .5s var(--easing) both;
+  }
+}
+
+.came-left {
+  .home-card {
+    animation: leftIn .5s var(--easing) both;
+  }
+}
+
+.came-right {
+  .home-card {
+    animation: rightIn .5s var(--easing) both;
+  }
+}
+
+.went-left, .went-right, .came-left, .came-right {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes leftOut {
+  0% { display: block; transform: translateY(0) rotate(0deg); opacity: 1; }
+  99% { transform: translateY(-100px) rotate(-90deg); opacity: 0; }
+  100% { display: none; }
+}
+
+@keyframes rightOut {
+  0% { display: block; transform: translateY(0) rotate(0deg); opacity: 1; }
+  99% { transform: translateY(-100px) rotate(90deg); opacity: 0; }
+  100% { display: none; }
+}
+
+@keyframes leftIn {
+  0% { display: block; transform: translateY(-100px) rotate(90deg); opacity: 0; }
+  100% { transform: translateY(0) rotate(0deg); opacity: 1; }
+}
+
+@keyframes rightIn {
+  0% { display: block; transform: translateY(-100px) rotate(-90deg); opacity: 0; }
+  100% { transform: rotate(0deg); opacity: 1; }
+}
+
+@keyframes nudge {
+  0% { transform: translateY(50vh); opacity: 0; }
+  30% { opacity: 1; }
+  40% { transform: translateY(100vh); }
+  100% { transform: translateY(100vh); }
+}
